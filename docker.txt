@@ -1,0 +1,1 @@
+docker run -it -d --net=host --privileged=true --restart=always --name kafka03_to_kafka03_jj_hcq --log-opt max-size=100m --log-opt max-file=3 -v /home/GitHub/SX-KafkaToKafka_jj_hcq:/home centos-python3.6/requests:0.6 python3 /home/run.py
